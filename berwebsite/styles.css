@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+ 
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.nav-link.current{
+    color: orangered;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+.page-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: purple;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.page-image {
+    width: 50%; /* Adjust the percentage as needed */
+    max-width: 600px; /* Prevent the image from becoming too large */
+    height: 27; /* Maintain aspect ratio */
+    display: block; /* Center the image */
+    margin: 20px auto; /* Add space above and below, center horizontally */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
+}
+span{
+    color: hotpink;
+}
+.page-image{
+    width: 400px;
+            height: 400px;
+            background-image: url('your-image.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            border-radius: 50%;
+            border: 5px solid #fff;
+}
